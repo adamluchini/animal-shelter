@@ -8,17 +8,16 @@
 }
 
 body {
-  background-color: #C0C0C0
+  background-color: #C0C0C0;
+  font-family: sans-serif;
 }
 .column h1{
   text-align: center;
   font-size: 32px;
-  font-family: sans-serif;
 }
 
 .title h1{
   text-align: center;
-  font-family: sans-serif;
   font-size: 54px;
 }
 
@@ -29,4 +28,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
+}
+
+.column ul{
+  text-align: center;
+  font-size: 24px;
+  list-style-position: inside;
+}
+
+h3{
+  text-align: center;
+}
+
+.footer{
+  clear: both;
 }
